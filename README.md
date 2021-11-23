@@ -2,8 +2,8 @@
 This is a Command Line Interface (CLI) project which connects to the ZenDesk ticketing API, fetches a batch of tickets, and displays in the standard output.
 ## Tools Used
 - Language: JAVA
-- For test: JUnit 4
-- External tool: JSONsimple.jar
+- Unit Test: JUnit 4
+- External tool: [JSONsimple.jar](https://code.google.com/archive/p/json-simple/downloads)
 ## Pre-requisite
 Need to have [JDK installed](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html) in the system.
 ## How to Run the CLI App
@@ -29,4 +29,21 @@ The app is developed using [NetBeans](https://netbeans.apache.org/download/index
 2. If there are more than 25 tickets in the system, the menu option 1 will change to "5) Get next tickets".
 3. If 5 is entered, the menu will once again change to "4) Get previous tickets 5) Get next tickets"
   
+## Screenshot of the application
+1. When option 1 is selected
+
+![1](https://user-images.githubusercontent.com/79996375/143091404-bc5d5234-f1da-4476-9192-89a9abe13a5f.png)
+**The menu changes
+
+
+2. When option 5 is selected
+![2](https://user-images.githubusercontent.com/79996375/143091507-6712f5f7-f21b-49fd-b762-66b338a7e8e7.png)
+**The meny changes one more time
+
+
+3. When option 2 is included and the ticket exist
+![3](https://user-images.githubusercontent.com/79996375/143091664-9af0253d-87c5-47ea-bd29-271addb8ffe3.png)
+
+4. When option 2 is selected and the ticket doesn't exist
+![4](https://user-images.githubusercontent.com/79996375/143091778-161d6e7c-255f-4b9e-aa45-9800013f4c9a.png)
 
